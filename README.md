@@ -1,1 +1,3 @@
 # car-detection
+
+we are working on a self-driving car. As a critical component of this project, we'd like to first build a car detection system. To collect data, we've mounted a camera to the hood (meaning the front) of the car, which takes pictures of the road ahead every few seconds while you drive around.we've gathered all these images into a folder and have labelled them by drawing bounding boxes around every car you found If you have 80 classes that you want YOLO to recognize, you can represent the class label either as an integer from 1 to 80, or as an 80-dimensional vector (with 80 numbers) one component of which is 1 and the rest of which are 0.
